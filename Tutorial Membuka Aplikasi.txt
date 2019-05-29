@@ -1,0 +1,20 @@
+Tutorial membuka project KPU-Sister
+1. sediakan 2 pc atau lebih
+2. hubungkan semua pc dengan satu jaringan
+3. lalu konfigurasi aplikasi sistem website laravel menginstal composer dan laravel
+4. import basis data atau php artisan migrate
+5. lalu buka di browser "pc yang ada aplikasinya" lihat ip adressnya
+6. masukan ip adress di pc untuk memilih
+7. buka directory aplikasinya " ip.adress/kpu_fix/public
+8. lalu mulai scan sidik jari di arduino dan mencocokan ID pc untuk memilih
+9. lalu mulai memilih
+
+Setting Arduino
+1. Siapkan Fingerprint JM-010B dan ESP8266
+2. kabel ungu ke 3V
+3. kabel Orange ke RX
+4. kabel Putih ke TX
+5. kabel Biru ke Gnd
+6. ganti connet wifi di program arduino dengan koneksi yang terhubung
+7. download library ada fruit
+8. buka dengan modul 12 esp
